@@ -6,27 +6,13 @@
 /*   By: releanor <releanor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/12 04:03:50 by releanor          #+#    #+#             */
-/*   Updated: 2019/09/12 04:15:38 by releanor         ###   ########.fr       */
+/*   Updated: 2019/12/18 12:11:49 by releanor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
 int		ft_isalpha(int c)
 {
-	int i;
-
-	i = 0;
-	while (i < 26)
-	{
-		if (c == (65 + i))
-			return (1);
-		i++;
-	}
-	i = 0;
-	while (i < 26)
-	{
-		if (c == (97 + i))
-			return (1);
-		i++;
-	}
-	return (0);
+	return (ft_isupper(c) || ft_islower(c)) ? 1 : 0;
 }
