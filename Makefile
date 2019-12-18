@@ -6,7 +6,7 @@
 #    By: releanor <releanor@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/08 07:37:30 by releanor          #+#    #+#              #
-#    Updated: 2019/09/20 21:56:56 by releanor         ###   ########.fr        #
+#    Updated: 2019/12/18 12:09:09 by releanor         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -73,7 +73,9 @@ SRC = ft_atoi.c \
 		ft_lstdel.c \
 		ft_lstadd.c \
 		ft_lstiter.c \
-		ft_lstmap.c
+		ft_lstmap.c \
+		ft_isupper.c \
+		ft_islower.c
 
 OBJ = ft_atoi.o \
 		ft_memset.o \
@@ -132,7 +134,9 @@ OBJ = ft_atoi.o \
 		ft_lstdel.o \
 		ft_lstadd.o \
 		ft_lstiter.o \
-		ft_lstmap.o
+		ft_lstmap.o \
+		ft_isupper.o \
+		ft_islower.o
 
 all: $(NAME)
 

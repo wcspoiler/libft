@@ -6,11 +6,11 @@
 /*   By: releanor <releanor@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/12 04:16:53 by releanor          #+#    #+#             */
-/*   Updated: 2019/12/18 11:46:46 by releanor         ###   ########.fr       */
+/*   Updated: 2019/12/18 12:15:51 by releanor         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_isdigit(char c)
+int		ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);
